@@ -15,7 +15,7 @@ var nodemailer = require('nodemailer');
 
 
 
-mongoose.connect('mongodb+srv://akhil:uedpwd@cluster0-genok.mongodb.net/test?retryWrites=true');
+mongoose.connect('mongodb+srv://user:user@cluster0-grdmz.mongodb.net/test?retryWrites=true');
 mongoose.connection.once('open', () => {
   console.log('connected to database');
 });
